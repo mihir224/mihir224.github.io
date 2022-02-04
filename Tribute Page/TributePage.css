@@ -1,0 +1,48 @@
+body{
+    background:url("https://images.pexels.com/photos/62693/pexels-photo-62693.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1")
+}
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin:  auto;
+
+  }
+  p{
+      text-align: center;
+      font-weight: bold;
+      font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-style: italic;
+      font-size: 20;
+
+  }
+  #img-div {
+  
+    padding: 10px;
+    margin: 0;
+  }
+  #img-caption{
+      font-family: sans-serif;
+    margin-left: 43%;
+}
+#title{
+        font-family: Lobster, sans-serif;
+        text-align: center;
+        font-size: 50;
+    }
+    ul{
+        font-size: 22;
+    }
+    #tribute-link{
+       
+        font-size: 20;
+    }
+    #headline{
+        font-size: 24;
+        font-weight: bold;
+        font-family:Fira Sans, monospace;
+    }
+    #tribute-info{
+       
+        font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+    }
