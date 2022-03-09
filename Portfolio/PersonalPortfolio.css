@@ -1,0 +1,100 @@
+body{
+    background-color: burlywood;
+}
+#welcome-section{
+    height:auto;
+    text-align: center;
+    display: block;
+    background-color: maroon;
+    padding:120px ;
+    font-family: Jost, sans-serif;
+}
+h1{
+    font-size: 50;
+    color: blanchedalmond;
+}
+#welcome-section h2{
+    color:burlywood;
+    font-size: 30;
+}
+@media (max-width:800px){
+    #welcome-section{
+        padding: auto;
+    }
+}
+#navbar{
+    display: flex;
+    justify-content: center;
+    padding-left: 700px;
+    font-family: Jost, sans-serif;
+    }
+#navbar li{
+    display: inline-block;
+    padding:50px;
+    list-style: none;
+    font-size: 25;
+   
+}
+#projects{
+    display: flex;
+    justify-content: center;
+    padding: 120px;
+    font-size: 20;
+    text-align: center;
+    font-family: Jost, sans-serif;
+    background-color: burlywood;
+    color: maroon;
+    
+}
+#projects > #tribute{
+    display: block;
+    border: solid;
+   margin-right: 15px;
+}
+#projects > #survey{
+    display: block;
+    border: solid;
+    margin-right: 20px;
+}
+#projects > #product{
+    display: block;
+    border: solid;
+    margin-right: 25px;
+}
+#projects > #doc{
+    display: block;
+    border: solid;
+    
+    padding-left: 5px;
+}
+#projects h2{
+    text-decoration: underline;
+  }
+#skills{
+    display: block;
+    text-align: center;
+    font-size: 25;
+    font-family: Jost, sans-serif;
+    color: burlywood;
+    padding: 10px;
+    background-color: maroon;
+}
+ol li{
+    list-style: none;
+}
+#contact{
+    display: block;
+    text-align: center;
+    font-family: Jost, sans-serif;
+    font-style: italic;
+}
+#profile-link{
+    font-size: 20;
+    text-align: end;
+    font-family: Jost, sans-serif;
+    font-style: italic;
+}
+  a{
+      color: maroon;
+  }
+  
