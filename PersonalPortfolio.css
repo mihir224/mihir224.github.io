@@ -1,108 +1,88 @@
 body{
-    background-color: burlywood;
+    font-family: Montserrat;   
 }
-#welcome-section{
-    height:auto;
+#logo{
+    color:#222831;
+}
+.navbar{
+    background-color: white;
+    padding: 20px;
+   }
+.nav-brand{
+    color: #222831;
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item{
+    padding: 0 18px; 
+}
+.nav-link{
+   font-size: 1.2rem;
+   color: #222831;
+}
+.nav-link:hover{
+    color:gray;
+}
+.heading{ 
+    background-color: #222831;
+    padding: 20% 10%;
     text-align: center;
-    display: block;
-    background-color: maroon;
-    padding:120px ;
-    font-family: Jost, sans-serif;
+    color: #FFF;
 }
-h1{
-    font-size: 50;
-    color: blanchedalmond;
-}
-#welcome-section h2{
-    color:burlywood;
-    font-size: 30;
-}
-@media (max-width:800px){
-    #welcome-section{
-        padding: auto;
-    }
-}
-@media (max-width:800px){
-    #navbar{
-        padding: auto;
-    }
-}
-#navbar{
-    display: flex;
-    justify-content: center;
-    padding-left: 700px;
-    font-family: Jost, sans-serif;
-    }
-#navbar li{
-    display: inline-block;
-    padding:50px;
-    list-style: none;
-    font-size: 25;
-   
-}
+
 #projects{
-    display: flex;
-    justify-content: center;
-    padding: 120px;
-    font-size: 20;
+    padding-bottom: 10%;
+    color: #222831;
+}
+.project-title{
     text-align: center;
-    font-family: Jost, sans-serif;
-    background-color: burlywood;
-    color: maroon;
+    padding-bottom: 5%;
+    color: #222831;
+    padding-top: 5%;
     
 }
-#projects > #tribute{
-    display: block;
-    border: solid;
-   margin-right: 15px;
+.row{
+    text-align: center;
 }
-#projects > #survey{
-    display: block;
-    border: solid;
-    margin-right: 20px;
-}
-#projects > #product{
-    display: block;
-    border: solid;
-    margin-right: 25px;
-}
-#projects > #doc{
-    display: block;
-    border: solid;
+.card-header{
+    background-color: #222831;
+    color: #FFF;
     
-    padding-left: 5px;
 }
-#projects h2{
-    text-decoration: underline;
-  }
+.card-body{
+    background-color: #FFF;
+}
+button{
+    color:#222831;
+}
+.proj-link{
+    color: #222831;
+}
+button :hover{
+    color:#FFF;
+    text-decoration: none;
+}
 #skills{
-    display: block;
     text-align: center;
-    font-size: 25;
-    font-family: Jost, sans-serif;
-    color: burlywood;
-    padding: 10px;
-    background-color: maroon;
+    background-color: #222831;
+    padding: 100px;
 }
-ol li{
-    list-style: none;
+img{
+    border-radius: 10%;
 }
-#contact{
-    display: block;
+#skill-title{
+    color: #FFF;
+    padding-bottom: 50px;
+}
+#footer{
+    font-size: 1.2rem;
     text-align: center;
-    font-family: Jost, sans-serif;
-    font-style: italic;
+    padding: 50px;
+    color: #222831;
 }
-#profile-link{
-    font-size: 20;
-    text-align: end;
-    font-family: Jost, sans-serif;
-    font-style: italic;
+#fa{
+    color: #222831;
 }
-  a{
-      color: maroon;
-  }
- #pr{
-     
-        color: brown;
- } 
+#fa:hover{
+    color:black;
+}
