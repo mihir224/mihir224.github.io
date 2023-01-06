@@ -71,6 +71,7 @@ button :hover{
     text-align: center;
     background-color: #222831;
     padding: 100px;
+    position: sticky;
 }
 img{
     border-radius: 10%;
@@ -91,6 +92,12 @@ img{
 #fa:hover{
     color:black;
 }
+.skillImg{
+    height: 15em;
+    width: 18em;
+    background: white;
+}
+
 /* for waving hand emoji */
 .wave {
     animation-name: wave-animation;  
