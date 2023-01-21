@@ -1,5 +1,6 @@
 body{
-    font-family: Montserrat;   
+    font-family: Montserrat;
+    overflow-x: hidden;   
 }
 #logo{
     color:#222831;
@@ -7,6 +8,7 @@ body{
 .navbar{
     background-color: white;
     padding: 20px;
+    height: 9em;
    }
 .nav-brand{
     color: #222831;
@@ -25,13 +27,16 @@ body{
 }
 .heading{ 
     background-color: #222831;
-    padding: 20% 10%;
+    padding: 15% 10%;
     text-align: center;
     color: #FFF;
+   
 }
-
+#desc{
+    font-size:20px;
+}
 #projects{
-    padding-bottom: 10%;
+    padding-bottom: 9%;
     color: #222831;
 }
 .project-title{
@@ -39,7 +44,6 @@ body{
     padding-bottom: 5%;
     color: #222831;
     padding-top: 5%;
-    
 }
 .row{
     text-align: center;
@@ -81,9 +85,9 @@ img{
     padding-bottom: 50px;
 }
 #footer{
-    font-size: 1.2rem;
+    font-size: 16px;
     text-align: center;
-    padding: 50px;
+    padding-top: 10px;
     color: #222831;
 }
 #fa{
@@ -93,9 +97,10 @@ img{
     color:black;
 }
 .skillImg{
-    height: 15em;
-    width: 18em;
+    height: 14em;
+    width: 17em;
     background: white;
+    
 }
 
 /* for waving hand emoji */
