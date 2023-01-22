@@ -4,20 +4,21 @@ body{
 }
 #logo{
     color:#222831;
+
 }
 .navbar{
     background-color: white;
-    padding: 20px;
-    height: 9em;
+    height: 7em;
+    padding:0;
    }
+
 .nav-brand{
     color: #222831;
-    font-size: 2.5rem;
-    font-weight: bold;
 }
 .nav-item{
     padding: 0 18px; 
 }
+
 .nav-link{
    font-size: 1.2rem;
    color: #222831;
@@ -26,25 +27,58 @@ body{
     color:gray;
 }
 .heading{ 
-    background-color: #222831;
-    padding: 15% 10%;
-    text-align: center;
-    color: #FFF;
    
+    background-color: #222831;
+    padding: 7% 10%;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    display: flex;
 }
+@keyframes slideRight{
+    0%{
+        transform: translateX(-100%);
+    }
+    100%{
+        transform:translateX(0);
+    }
+} 
+@keyframes slideLeft{
+    0%{
+        transform: translateX(100%);
+    }
+    100%{
+        transform:translateX(0);
+    }
+} 
+.heading>img{
+    animation-duration: 1s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideRight;
+}
+.heading>h2{
+    animation-duration: 3s;
+    animation-delay: 0s;
+    animation-iteration-count: 1;
+    animation-name: slideLeft;
+}
+
+
 #desc{
-    font-size:20px;
+    font-size:18px;
 }
 #projects{
-    padding-bottom: 8%;
+    padding-bottom: 30px;
     color: #222831;
     
 }
 .project-title{
     text-align: center;
-    padding-bottom: 5%;
+    padding-bottom: 30px;
     color: #222831;
-    padding-top: 5%;
+    padding-top: 30px;
 }
 .row{
     text-align: center;
@@ -76,21 +110,21 @@ button :hover{
 #skills{
     text-align: center;
     background-color: #222831;
-    padding: 100px;
-    position: sticky;
+    padding: 50px 0 ;
 }
 img{
     border-radius: 10%;
 }
 #skill-title{
     color: #FFF;
-    padding-bottom: 50px;
+   
 }
 #footer{
+    height: 40px;
     font-size: 16px;
     text-align: center;
     padding-top: 10px;
-    color: #222831;
+   
 }
 #fa{
     color: #222831;
@@ -99,10 +133,19 @@ img{
     color:black;
 }
 .skillImg{
-    height: 14em;
-    width: 17em;
+    height: 10em;
+    width: 13em;
     background: white;
-    
+    margin: 5px;
+    transition-duration: 0.2s;
+}
+.skillImg:hover {
+    height: 10.5em;
+    width: 13.5em;
+}
+#cr{
+    font-size: 12px;
+   
 }
 
 /* for waving hand emoji */
