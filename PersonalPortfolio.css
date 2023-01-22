@@ -53,13 +53,13 @@ body{
     }
 } 
 .heading>img{
-    animation-duration: 1s;
+    animation-duration: 2s;
     animation-delay: 0s;
     animation-iteration-count: 1;
     animation-name: slideRight;
 }
 .heading>h2{
-    animation-duration: 3s;
+    animation-duration: 2s;
     animation-delay: 0s;
     animation-iteration-count: 1;
     animation-name: slideLeft;
