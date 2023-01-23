@@ -36,6 +36,11 @@ body{
     color: #FFF;
     display: flex;
 }
+@media screen and (max-width:400px) {
+    .heading{
+        flex-wrap: wrap;
+    }
+}
 @keyframes slideRight{
     0%{
         transform: translateX(-100%);
